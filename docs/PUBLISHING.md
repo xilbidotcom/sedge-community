@@ -2,10 +2,11 @@
 
 ## Prepared repository
 
-This is the independent **SEDGE Community** repository. Publish only its source,
-not the main SEDGE checkout or an enclosing directory. Suggested repository name:
-`sedge-community`. Suggested description: "Lightweight synthetic energy datasets
-with a local Web interface and API. Apache-2.0 source; separate branding terms."
+This is the independent **SEDGE Community** repository:
+[xilbidotcom/sedge-community](https://github.com/xilbidotcom/sedge-community).
+Publish only its source, not the main SEDGE checkout or an enclosing directory.
+The public repository has private vulnerability reporting and dependency alerts
+enabled. Neither feature exposes the separate main edition.
 
 No remote is required for local work. Account access, destination organisation,
 repository visibility and the actual upload are separate publication steps.
@@ -72,7 +73,8 @@ push, after checking author metadata and authorising the destination.
 8. Attach source archives and their checksums to the release. Do not publish
    runtime databases, generated outputs or the main-edition package.
 
-These are future account-side steps, not claims that a repository, public
-release, branch protection, GitHub Actions run or vulnerability-reporting channel
-already exists. No donation platform is implied by the funding acknowledgement;
-there is deliberately no GitHub sponsorship configuration.
+These are the release-maintenance checklist. Check the repository's Actions,
+Releases and settings for their current status; local validation does not prove
+that a remote workflow or branch protection is in effect. No donation platform
+is implied by the funding acknowledgement; there is deliberately no GitHub
+sponsorship configuration.

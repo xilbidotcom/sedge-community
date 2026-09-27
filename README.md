@@ -6,6 +6,8 @@ A small standalone edition of the **Synthetic Energy Data Generation Engine**.
 Newly written Community code and documentation are licensed under **Apache-2.0**.
 This is not the proprietary SEDGE Engine and does not change its licence.
 
+Source and releases: [xilbidotcom/sedge-community](https://github.com/xilbidotcom/sedge-community).
+
 ## Start here
 
 Requirements: Python 3.11 or later; Node.js 20.19 or later in the 20.x line,
@@ -15,6 +17,8 @@ and bundled Help work offline; the optional Swagger interface loads its assets
 from a public CDN.
 
 ```bash
+git clone https://github.com/xilbidotcom/sedge-community.git
+cd sedge-community
 ./scripts/setup.sh
 ./scripts/start.sh
 ```

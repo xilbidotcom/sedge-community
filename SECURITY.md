@@ -12,11 +12,11 @@ before considering any shared deployment.
 
 ## Reporting a vulnerability
 
-After publication, use the repository's Security > Report a vulnerability feature
-if enabled. Otherwise request a private security contact through the contact form
-on <https://www.xilbi.com/>. Do not send an exploit, secret or private dataset in
-the initial enquiry and never include it in public issues. Private reporting is
-a repository setting, not something enabled automatically by this file.
+Use [private vulnerability reporting](https://github.com/xilbidotcom/sedge-community/security/advisories/new),
+enabled for this repository. If that channel is unavailable, request a private
+security contact through the contact form on <https://www.xilbi.com/>. Do not send
+an exploit, secret or private dataset in the initial contact-form enquiry and
+never include it in public issues.
 
 ## Supported versions and updates
 

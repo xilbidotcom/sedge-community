@@ -5,6 +5,8 @@ message: "Please cite SEDGE Community when using this software."
 title: "SEDGE Community: Synthetic Energy Data Generation Engine"
 type: software
 version: 1.0.0
+repository-code: "https://github.com/xilbidotcom/sedge-community"
+url: "https://github.com/xilbidotcom/sedge-community"
 authors:
   - name: Xilbi Sistemas de Informacion SL
 license: Apache-2.0
