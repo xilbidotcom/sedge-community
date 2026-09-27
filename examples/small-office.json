@@ -1,0 +1,1 @@
+{"scenario_id":"small-office","start_date":"2026-06-01","days":7,"resolution_minutes":15,"buildings":1,"daily_load_kwh":48,"pv_capacity_kw":6,"variability":0.1,"seed":42}

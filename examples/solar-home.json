@@ -1,0 +1,1 @@
+{"scenario_id":"solar-home","start_date":"2026-06-01","days":7,"resolution_minutes":15,"buildings":1,"daily_load_kwh":12,"pv_capacity_kw":4,"variability":0.15,"seed":42}
