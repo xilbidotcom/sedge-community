@@ -1,4 +1,4 @@
-# Community 1.0.1 release checks
+# Community 1.0.2 release checks
 
 The source repository is [xilbidotcom/sedge-community](https://github.com/xilbidotcom/sedge-community).
 Publication is an explicit maintainer action; setup, validation and packaging
@@ -25,7 +25,7 @@ Local verification completed for this preparation:
 
 | Check | Result |
 | --- | --- |
-| Python tests, including release-policy and README branding regressions | 26 passed |
+| Python tests, including release-policy, branding and launcher regressions | 27 passed |
 | Web tests, including complete funding and legal links | 5 passed |
 | Ruff | Passed |
 | Production Web build | Passed; advisory about bundle size |

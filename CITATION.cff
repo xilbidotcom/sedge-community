@@ -4,7 +4,7 @@ cff-version: 1.2.0
 message: "Please cite SEDGE Community when using this software."
 title: "SEDGE Community: Synthetic Energy Data Generation Engine"
 type: software
-version: 1.0.1
+version: 1.0.2
 repository-code: "https://github.com/xilbidotcom/sedge-community"
 url: "https://github.com/xilbidotcom/sedge-community"
 authors:

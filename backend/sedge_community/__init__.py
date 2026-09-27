@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: Apache-2.0
 """SEDGE Community: a standalone educational edition, independent of SEDGE Engine."""
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"

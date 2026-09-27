@@ -3,6 +3,7 @@
 """Check that edition identity, notices and example configurations stay coherent."""
 
 import json
+import runpy
 import tomllib
 from pathlib import Path
 
@@ -10,6 +11,11 @@ from sedge_community import __version__
 from sedge_community.models import GenerationRequest
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_launcher_version():
+    launcher = runpy.run_path(str(ROOT / "scripts/serve.py"))
+    assert launcher["version_banner"]() == f"SEDGE Community {__version__}"
 
 
 def test_versions_and_examples():

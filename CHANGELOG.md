@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Startup messages use the canonical release version.
+
 ## 1.0.1
 
 - Readable README logos on both light and dark backgrounds.

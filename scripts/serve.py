@@ -22,6 +22,11 @@ ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / ".runtime" / "services.json"
 
 
+def version_banner():
+    """Identify the source release used by this launcher."""
+    return f"SEDGE Community {(ROOT / 'VERSION').read_text().strip()}"
+
+
 def identity(pid):
     try:
         fields = Path(f"/proc/{pid}/stat").read_text().rsplit(")", 1)[1].split()
@@ -147,7 +152,7 @@ def main():
             if any(proc.poll() is not None for proc in processes):
                 raise RuntimeError("A review process exited. See .runtime/api.log and .runtime/web.log")
             if ready(f"http://127.0.0.1:{args.api_port}/api/v1/healthz") and ready(web_url):
-                print(f"SEDGE Community 1.0.0\nWeb: {web_url}\nAPI: {api_url}\nNo startup service installed.")
+                print(f"{version_banner()}\nWeb: {web_url}\nAPI: {api_url}\nNo startup service installed.")
                 return
             time.sleep(0.2)
         raise RuntimeError("Health check timed out. See .runtime logs.")

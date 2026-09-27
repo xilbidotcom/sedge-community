@@ -183,7 +183,7 @@ function App() {
         >
           <img src="/brand/sedge-logo.png" alt="SEDGE" />
           <span>
-            Community <small>1.0.1</small>
+            Community <small>1.0.2</small>
           </span>
         </button>
         <nav aria-label="Main navigation">
@@ -829,7 +829,7 @@ function App() {
           <>
             <div className="page-heading">
               <div>
-                <p className="eyebrow">APACHE-2.0 · VERSION 1.0.1</p>
+                <p className="eyebrow">APACHE-2.0 · VERSION 1.0.2</p>
                 <h1>SEDGE Community</h1>
               </div>
             </div>
@@ -892,7 +892,7 @@ function App() {
         <div className="footer-right">
           <img src="/brand/o-cei-logo.png" alt="O-CEI" />
           <span>
-            SEDGE Community 1.0.1
+            SEDGE Community 1.0.2
             <br />
             <a href="/legal/LICENSE">Apache-2.0</a>
           </span>
