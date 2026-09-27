@@ -8,10 +8,6 @@ Short SPDX headers identify comment-safe source files. Files without comments,
 including JSON examples and lock files, are covered by this package-level
 statement. Dependencies remain under their own licences.
 
-This grant applies to this Community repository, not the separate proprietary
-SEDGE Engine, its implementation, datasets, research records or internal archives.
-The Community edition has its own version and release lifecycle.
-
 ## Exceptions
 
 - Logo artwork and trademarks are governed by [BRANDING.md](BRANDING.md), not

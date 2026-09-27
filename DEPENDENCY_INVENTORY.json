@@ -3,7 +3,7 @@
   "scope": "Locked Python and npm dependencies; metadata, not vendored software",
   "lock_sha256": {
     "requirements.lock": "376abc7bc09b4b6bd4aed141ae67d079ef4d8f3725372115bddc8a5c0918a863",
-    "web/package-lock.json": "d90f9476af6da68703442d60cab2f3fa9fcb8e87a9f6df76a91ef173ce3382a3"
+    "web/package-lock.json": "1e1697eef885f46a3f2635aad55a862ae83f33434280a965104100d121f19a50"
   },
   "components": [
     {

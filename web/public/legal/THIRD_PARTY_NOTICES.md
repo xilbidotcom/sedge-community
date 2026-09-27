@@ -19,7 +19,7 @@ full notices. Lock files record the exact reviewed dependency set.
 
 Python transitive dependencies are recorded in `requirements.lock` and Web
 dependencies in `web/package-lock.json`. This is a source-only project: no
-vendored dependency code, external datasets, trained models or main-edition
+vendored dependency code, external datasets, trained models or internal
 archives are included. Logo terms are documented in `BRANDING.md`.
 
 The complete locked dependency list and declared licence identifiers are in

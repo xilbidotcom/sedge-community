@@ -28,6 +28,6 @@ Run `npm --prefix web audit` and `pip-audit -r requirements.lock` before release
 The audit queries public advisory services using dependency names and versions;
 it does not upload source code. A clean result is not proof of security.
 
-Never upload `.env`, credentials, logs, private datasets or the main SEDGE archive.
+Never upload `.env`, credentials, logs, private datasets or internal archives.
 Back up any downloaded results separately; this service has no server-side run
 storage, authentication or deletion API.

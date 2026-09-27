@@ -183,7 +183,7 @@ function App() {
         >
           <img src="/brand/sedge-logo.png" alt="SEDGE" />
           <span>
-            Community <small>1.0.0</small>
+            Community <small>1.0.1</small>
           </span>
         </button>
         <nav aria-label="Main navigation">
@@ -829,7 +829,7 @@ function App() {
           <>
             <div className="page-heading">
               <div>
-                <p className="eyebrow">APACHE-2.0 · VERSION 1.0.0</p>
+                <p className="eyebrow">APACHE-2.0 · VERSION 1.0.1</p>
                 <h1>SEDGE Community</h1>
               </div>
             </div>
@@ -841,12 +841,11 @@ function App() {
                 demand, solar production, grid exchange and temperature series
                 from simple seeded profiles.
               </p>
-              <h2>A distinct edition</h2>
+              <h2>Scope</h2>
               <p>
-                Community has its own codebase, API, ports and version. It does
-                not connect to the main SEDGE application or use its datasets.
-                Accounts, recipes, packages, ML, simulation engines and
-                orchestration are not included.
+                Generated results are held in memory and can be downloaded as
+                CSV or JSON. Accounts, recipes, packages, ML, simulation engines
+                and orchestration are not included.
               </p>
               <h2>Licensing and identity</h2>
               <p>
@@ -893,7 +892,7 @@ function App() {
         <div className="footer-right">
           <img src="/brand/o-cei-logo.png" alt="O-CEI" />
           <span>
-            SEDGE Community 1.0.0
+            SEDGE Community 1.0.1
             <br />
             <a href="/legal/LICENSE">Apache-2.0</a>
           </span>

@@ -3,8 +3,8 @@
 ## API unavailable
 
 Run `./scripts/status.sh` from the Community folder. Review `.runtime/api.log`
-and `.runtime/web.log`. The Community API uses port 9010, not the main API on
-9001. Start both services using `./scripts/start.sh`.
+and `.runtime/web.log`. The Community API uses port 9010 by default.
+Start both services using `./scripts/start.sh`.
 
 ## Port already in use
 
@@ -31,10 +31,10 @@ This is intentional when the seed and settings are unchanged. Change the seed
 for another reproducible realisation. At zero variability the model is
 deterministic even across different seeds.
 
-## Main SEDGE is still visible
+## A different application is visible
 
-Open the Community Web port, normally 5180, rather than 5173. The header must say
-**Community 1.0.0**. The services use separate source, dependencies and ports.
+Open the Web URL reported by `./scripts/status.sh`, normally port 5180.
+Check the Community name and version in the application header.
 
 ## Stopping and rebooting
 

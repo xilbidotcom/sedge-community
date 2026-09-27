@@ -1,7 +1,8 @@
 # Community edition verification
 
-This records verification of Community 1.0.0, not the capabilities or KPI results
-of the separate SEDGE Engine. The generator is illustrative and uncalibrated.
+This records the initial functional verification of Community 1.0.0.
+The generator is illustrative and uncalibrated. Current release checks are
+recorded in [release readiness](RELEASE_READINESS.md).
 
 ## Automated checks
 
@@ -33,14 +34,8 @@ identical records. The JSON contained the same 672 records and configuration.
 
 The Community Web and API run on loopback ports 5180 and 9010. Start, stop and
 restart were exercised; a duplicate start was rejected without stopping the
-existing instance. No boot service is installed. The launcher does not manage
-the main SEDGE services or their ports.
-
-Only approved branding images were reused. The Community implementation has
-its own source repository, dependencies, examples and tests. No main-edition
-source modules, database, trained models, generated datasets, D3 materials or
-internal archives are required or included. The main repository's pre-existing
-branding edits were left unchanged.
+existing instance. No boot service is installed. The launcher manages only its
+recorded processes and leaves other listeners untouched.
 
 ## Source archive
 

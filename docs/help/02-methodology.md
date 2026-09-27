@@ -1,6 +1,6 @@
 # Method and limitations
 
-Community uses simple seeded equations, not the main SEDGE generation engine.
+Community uses simple seeded equations for energy profiles.
 No measured datasets, pretrained models or online context providers are used.
 
 ## Demand
@@ -38,5 +38,3 @@ Use the data for teaching, software demonstrations, chart prototyping and basic
 pipeline checks. Do not use it for operational control, investment, safety,
 forecast accuracy or regulatory claims. Basic numeric bounds are enforced;
 this is **not** a full physical-feasibility or plausibility certification.
-
-Main-edition performance and validation results do not apply to Community.

@@ -1,7 +1,8 @@
-# Community 1.0.0 publication readiness
+# Community 1.0.1 release checks
 
-The source is prepared for a separate GitHub repository. Publication itself is
-not performed by the setup, validation or packaging scripts.
+The source repository is [xilbidotcom/sedge-community](https://github.com/xilbidotcom/sedge-community).
+Publication is an explicit maintainer action; setup, validation and packaging
+scripts do not upload source or results.
 
 ## Included
 
@@ -24,7 +25,7 @@ Local verification completed for this preparation:
 
 | Check | Result |
 | --- | --- |
-| Python tests, including release-policy regressions | 24 passed |
+| Python tests, including release-policy and README branding regressions | 26 passed |
 | Web tests, including complete funding and legal links | 5 passed |
 | Ruff | Passed |
 | Production Web build | Passed; advisory about bundle size |
@@ -55,14 +56,14 @@ upstream notices in an attempt to anonymise dependencies.
 
 An external release policy checks source/package names and text for restricted
 development references and project-specific personal identifiers. The detection
-vocabulary is not distributed with either edition. Historical main-edition
-archives and frozen evaluation records are not part of the Community release.
+vocabulary is not distributed. Source releases exclude internal archives and
+runtime outputs.
 
-GitHub Actions and account-side settings can only be verified after publication.
+The repository's Actions page records CI results for each published commit.
 Automated source and advisory scans do not certify legal compliance, absence of
 all vulnerabilities, or permission beyond the stated source and artwork terms.
 The owner retains the final decision on destination, visibility and publication.
 
-No scientific-validation results from the separate SEDGE Engine are claimed.
-Only illustrative, seeded synthetic generation is provided. The main edition,
-its licence, private outputs and internal archives are outside this package.
+The generator provides illustrative, seeded synthetic profiles. Functional tests
+check software behaviour; they do not establish scientific accuracy or
+suitability for operational decisions.

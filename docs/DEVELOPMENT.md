@@ -1,8 +1,8 @@
-# Development and edition boundaries
+# Development guide
 
-The generator, schema, API, UI and documentation are a separate implementation.
-Only the four supplied brand images originate from the main edition. There are no
-imports, symlinks, mounted output directories or runtime calls into SEDGE Engine.
+SEDGE Community combines a synchronous Python API with a React interface.
+Generation is seeded, bounded and performed in memory; no database or worker
+queue is required.
 
 ## Layout
 
@@ -25,13 +25,12 @@ cd web
 npm run dev
 ```
 
-Vite proxies `/api` to the Community API. The browser uses a relative URL and
-never falls back to the main SEDGE API on port 9001. The production review build
+Vite proxies `/api` to the Community API on port 9010. The browser uses a relative URL.
+The production review build
 uses the same proxy through Vite preview. Vite preview is not a public production
 web server. For a shared service, configure a proper reverse proxy and security
 controls; there is no public deployment helper in this edition.
 
-Version 1.0.0 belongs to **SEDGE Community**, independently of the main edition.
 For future changes update `VERSION`, Python and Web package metadata, UI version
 and lock files together. Add generator tests when changing numerical behaviour.
 
@@ -42,8 +41,9 @@ dependencies, caches, server logs or generated outputs. Commit the desired sourc
 state locally first. No remote is configured by these scripts; no push occurs.
 The archive includes the licence, notices and brand terms.
 
-## Retained main-edition evidence
+## Documentation style
 
-This edition does not alter the main repository, operational outputs or frozen
-evaluation records. Do not represent Community outputs as equivalent to those
-results. No formal project validation is claimed for Community.
+Describe the product, its limits and the procedure the reader needs. Keep
+implementation history and cross-repository copying narratives out of user
+guides, notices and About text. State licence scope directly; retain technical
+methodology and verification records where they help readers assess results.

@@ -27,11 +27,11 @@ def git(*args):
 
 
 def classification(name):
-    if name.startswith("web/public/brand/"):
+    if name.startswith(("web/public/brand/", "docs/assets/brand/")):
         owner = OWNER
-        if name.endswith("eu-funding.png"):
+        if Path(name).stem == "eu-funding":
             owner = "European Union"
-        elif name.endswith("o-cei-logo.png"):
+        elif Path(name).stem == "o-cei-logo":
             owner = "O-CEI project / respective rights holders"
         return {"origin": "brand_artwork", "owner": owner, "licence": "See BRANDING.md"}
     if name.endswith("THIRD_PARTY_LICENCES.txt"):

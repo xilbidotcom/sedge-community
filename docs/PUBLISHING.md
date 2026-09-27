@@ -2,11 +2,11 @@
 
 ## Prepared repository
 
-This is the independent **SEDGE Community** repository:
+The **SEDGE Community** repository is:
 [xilbidotcom/sedge-community](https://github.com/xilbidotcom/sedge-community).
-Publish only its source, not the main SEDGE checkout or an enclosing directory.
+Publish the reviewed source tree, not an enclosing directory or runtime outputs.
 The public repository has private vulnerability reporting and dependency alerts
-enabled. Neither feature exposes the separate main edition.
+enabled.
 
 No remote is required for local work. Account access, destination organisation,
 repository visibility and the actual upload are separate publication steps.
@@ -68,10 +68,10 @@ push, after checking author metadata and authorising the destination.
    appropriate. Avoid mandatory reviews by nonexistent maintainers.
 6. Add the confirmed repository URL to citation/project metadata, then prepare
    the final public release from that reviewed source state.
-7. Tag Community releases as `v1.0.0`, then follow semantic versioning independently
-   of the main SEDGE product. Never overwrite a published tag.
+7. Tag Community releases as `v<MAJOR.MINOR.PATCH>` and follow semantic versioning.
+   Never overwrite a published tag.
 8. Attach source archives and their checksums to the release. Do not publish
-   runtime databases, generated outputs or the main-edition package.
+   runtime databases, generated outputs or internal archives.
 
 These are the release-maintenance checklist. Check the repository's Actions,
 Releases and settings for their current status; local validation does not prove

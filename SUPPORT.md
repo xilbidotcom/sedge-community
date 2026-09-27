@@ -13,5 +13,4 @@ For security reports use [SECURITY.md](SECURITY.md). General organisational
 enquiries can use the contact channel at [XILBI](https://www.xilbi.com/).
 
 Community support is best-effort. This edition has no production support SLA,
-scientific accuracy guarantee or operational certification. It is distinct from
-the main SEDGE application.
+scientific accuracy guarantee or operational certification.

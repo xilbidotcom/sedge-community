@@ -6,6 +6,7 @@ import io
 import pytest
 from fastapi.testclient import TestClient
 from pydantic import ValidationError
+from sedge_community import __version__
 from sedge_community.api import app
 from sedge_community.generator import generate, to_csv
 from sedge_community.models import GenerationRequest
@@ -93,5 +94,5 @@ def test_api_catalogue_download_and_validation():
     assert "attachment" in response.headers["content-disposition"]
     assert len(list(csv.DictReader(io.StringIO(response.text)))) == 96
     assert client.post("/api/v1/generate", json={"days": 32}).status_code == 422
-    assert client.get("/api/openapi.json").json()["info"]["version"] == "1.0.0"
+    assert client.get("/api/openapi.json").json()["info"]["version"] == __version__
     assert client.get("/api/v1/users").status_code == 404

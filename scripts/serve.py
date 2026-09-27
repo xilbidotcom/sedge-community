@@ -4,7 +4,7 @@
 
 Linux process start times guard against PID reuse. Children run in their own
 process groups so stopping npm also stops its preview process. No global kill,
-Docker action, main-edition access or dataset deletion is performed.
+Docker action or dataset deletion is performed.
 """
 
 import argparse
@@ -70,7 +70,7 @@ def main():
         if any(alive(e) for e in entries):
             sys.exit("A Community process has not stopped. Inspect .runtime logs before retrying.")
         STATE.unlink(missing_ok=True)
-        print("Community review services stopped. No main SEDGE service or data was touched.")
+        print("Community review services stopped.")
         return
     if args.action == "status":
         for entry in entries:

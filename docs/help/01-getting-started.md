@@ -1,7 +1,7 @@
 # Getting started
 
-SEDGE Community creates small, illustrative energy time series. It is separate
-from the main SEDGE application and has no accounts or saved runs.
+SEDGE Community creates small, illustrative energy time series. No login is
+required; download results before closing the page because runs are not saved.
 
 ## Your first dataset
 

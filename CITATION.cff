@@ -4,7 +4,7 @@ cff-version: 1.2.0
 message: "Please cite SEDGE Community when using this software."
 title: "SEDGE Community: Synthetic Energy Data Generation Engine"
 type: software
-version: 1.0.0
+version: 1.0.1
 repository-code: "https://github.com/xilbidotcom/sedge-community"
 url: "https://github.com/xilbidotcom/sedge-community"
 authors:
@@ -12,8 +12,7 @@ authors:
 license: Apache-2.0
 abstract: >-
   A lightweight, standalone generator of illustrative synthetic energy
-  time series for learning, demonstrations and prototyping. This edition
-  does not claim the validation results of the separate SEDGE Engine.
+  time series for learning, demonstrations and prototyping.
 keywords:
   - synthetic data
   - energy

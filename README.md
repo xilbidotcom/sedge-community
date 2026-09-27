@@ -1,10 +1,9 @@
 # SEDGE Community
 
-<img src="web/public/brand/sedge-logo.png" alt="SEDGE" height="56"> <img src="web/public/brand/xilbi.png" alt="XILBI" height="40">
+<img src="docs/assets/brand/sedge-logo.svg" alt="SEDGE" width="320"> <img src="docs/assets/brand/xilbi.svg" alt="XILBI" width="256">
 
 A small standalone edition of the **Synthetic Energy Data Generation Engine**.
-Newly written Community code and documentation are licensed under **Apache-2.0**.
-This is not the proprietary SEDGE Engine and does not change its licence.
+Community code and documentation are licensed under **Apache-2.0**.
 
 Source and releases: [xilbidotcom/sedge-community](https://github.com/xilbidotcom/sedge-community).
 
@@ -40,7 +39,7 @@ downloaded.
 
 The launcher binds to loopback, uses ports 5180/9010, and does not install systemd,
 Docker, a startup job or a restart policy. Nothing is configured to start after
-reboot. The main SEDGE ports 5173/9001, database, outputs and services are untouched.
+reboot. The launcher manages only the processes it starts.
 Conflicting ports cause a clear failure, not termination of another service.
 
 ## Included
@@ -60,8 +59,8 @@ EnergyPlus, CityLearn, storage/battery simulation, semantic evidence packages,
 Kubernetes and persistent deployment. No real data or fitted model is required.
 
 These are illustrative profiles, not a validated physical or forecasting model.
-No accuracy, privacy, feasibility or project-KPI performance from the main SEDGE
-edition is inherited by this edition.
+They are intended for learning, demonstrations and prototyping, not operational
+decisions or performance certification.
 
 ## Documentation
 
@@ -70,7 +69,7 @@ edition is inherited by this edition.
 - [Scenarios and output columns](docs/help/03-scenarios-and-data.md)
 - [API usage](docs/help/04-api.md)
 - [Troubleshooting](docs/help/05-troubleshooting.md)
-- [Development and edition boundaries](docs/DEVELOPMENT.md)
+- [Development guide](docs/DEVELOPMENT.md)
 - [Review verification](docs/VERIFICATION.md)
 - [Contributing](CONTRIBUTING.md), [support](SUPPORT.md), [changelog](CHANGELOG.md)
 - [Publication and release procedure](docs/PUBLISHING.md)
@@ -96,8 +95,7 @@ For an alternative pair of ports:
 ./scripts/start.sh --api-port 9011 --web-port 5181
 ```
 
-The checked-in source has no dependency on a neighbouring SEDGE checkout. No
-source or image is published automatically. Generated numerical outputs contain
+Generated numerical outputs contain
 no third-party input data; XILBI imposes no additional licence restriction on those
 values through this edition. Preserve the metadata and limitations when sharing
 outputs. Names and logos remain subject to the separate branding terms.
@@ -106,9 +104,9 @@ outputs. Names and logos remain subject to the separate branding terms.
 
 Copyright 2026 Xilbi Sistemas de Informacion SL. Community source and
 documentation are Apache-2.0; see [OWNERSHIP.md](OWNERSHIP.md) for the scope and
-artwork exceptions. The separate SEDGE Engine is not relicensed.
+artwork exceptions.
 
-<img src="web/public/brand/eu-funding.png" alt="Funded by the European Union" height="64"> <img src="web/public/brand/o-cei-logo.png" alt="O-CEI" height="44">
+<img src="docs/assets/brand/eu-funding.svg" alt="Funded by the European Union" width="352"> <img src="docs/assets/brand/o-cei-logo.svg" alt="O-CEI" width="128">
 
 Funded by the European Union through the O-CEI project. Views and opinions
 expressed are however those of the author(s) only and do not necessarily
