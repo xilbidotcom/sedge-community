@@ -8,9 +8,12 @@ build-backend = "setuptools.build_meta"
 name = "sedge-community"
 version = "1.0.0"
 description = "Lightweight, standalone synthetic energy generation"
+readme = "README.md"
 requires-python = ">=3.11"
 license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
 authors = [{name = "Xilbi Sistemas de Informacion SL"}]
+keywords = ["synthetic-data", "energy", "time-series"]
 dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "pydantic>=2.10,<3"]
 
 [project.optional-dependencies]

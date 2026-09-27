@@ -34,6 +34,7 @@ import {
   ReferenceLine,
 } from "recharts";
 import Markdown from "react-markdown";
+import { fundingDisclaimer } from "./legal";
 import {
   defaults,
   estimateRows,
@@ -859,7 +860,18 @@ function App() {
                   Apache-2.0 licence
                 </a>{" "}
                 · <a href="/legal/NOTICE">Attribution notice</a> ·{" "}
-                <a href="/legal/BRANDING.md">Branding terms</a>
+                <a href="/legal/BRANDING.md">Branding terms</a> ·{" "}
+                <a href="/legal/THIRD_PARTY_NOTICES.md">Third-party notices</a>{" "}
+                ·{" "}
+                <a href="/legal/THIRD_PARTY_LICENCES.txt">
+                  Dependency licences
+                </a>
+              </p>
+              <h2>Funding and acknowledgement</h2>
+              <p>{fundingDisclaimer}</p>
+              <p>
+                Funding does not imply endorsement or certification.{" "}
+                <a href="/legal/FUNDING.md">Funding statement</a>
               </p>
               <h2>Local by design</h2>
               <p>
@@ -875,9 +887,7 @@ function App() {
         <div className="funding">
           <img src="/brand/eu-funding.png" alt="Funded by the European Union" />
           <p>
-            Funded by the European Union. Views and opinions expressed are those
-            of the author(s) only and do not necessarily reflect those of the
-            European Union or the granting authority.
+            {fundingDisclaimer} <a href="/legal/FUNDING.md">Funding details</a>
           </p>
         </div>
         <div className="footer-right">

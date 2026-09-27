@@ -21,7 +21,15 @@ def test_versions_and_examples():
 
 
 def test_licence_and_bundled_notices():
-    for name in ("LICENSE", "NOTICE", "BRANDING.md"):
+    for name in (
+        "LICENSE",
+        "NOTICE",
+        "BRANDING.md",
+        "FUNDING.md",
+        "OWNERSHIP.md",
+        "THIRD_PARTY_NOTICES.md",
+        "THIRD_PARTY_LICENCES.txt",
+    ):
         assert ROOT.joinpath(name).read_bytes() == ROOT.joinpath("web/public/legal", name).read_bytes()
     assert "Apache License" in ROOT.joinpath("LICENSE").read_text()
     assert "Version 2.0, January 2004" in ROOT.joinpath("LICENSE").read_text()

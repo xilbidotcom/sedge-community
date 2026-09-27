@@ -6,6 +6,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5180 --strictPort",
+    "prebuild": "python3 ../scripts/sync_legal.py",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 5180 --strictPort",
     "test": "node --test tests/*.test.mjs"

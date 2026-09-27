@@ -1,0 +1,10 @@
+name: Feature request
+description: Propose a focused improvement to the lightweight edition.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Use case and proposed change
+      description: Explain how this fits the basic, local-first Community scope.
+    validations:
+      required: true

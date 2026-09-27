@@ -8,7 +8,5 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock
 .venv/bin/python -m pip install --no-deps -e .
 npm --prefix web ci
-mkdir -p web/public/legal
-cp LICENSE NOTICE BRANDING.md web/public/legal/
 npm --prefix web run build
 printf '\nReady. Run ./scripts/start.sh\n'

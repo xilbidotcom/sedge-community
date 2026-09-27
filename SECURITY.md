@@ -10,7 +10,24 @@ It writes no run files and reads no private datasets. Each request is limited to
 authenticated, rate-limited reverse proxy and an appropriate production server
 before considering any shared deployment.
 
-Dependencies need ongoing security review. Before public release, run `npm audit`
-and a Python dependency audit, review brand permissions, and test in the intended
-environment. Send security reports privately to XILBI using the contact channel
-on <https://www.xilbi.com/> rather than including sensitive details in public issues.
+## Reporting a vulnerability
+
+After publication, use the repository's Security > Report a vulnerability feature
+if enabled. Otherwise request a private security contact through the contact form
+on <https://www.xilbi.com/>. Do not send an exploit, secret or private dataset in
+the initial enquiry and never include it in public issues. Private reporting is
+a repository setting, not something enabled automatically by this file.
+
+## Supported versions and updates
+
+Security fixes target the latest Community 1.x release. There is no guaranteed
+response time or support commitment for earlier releases. Keep Python, Node and
+dependencies supported and review advisories when updating the lock files.
+
+Run `npm --prefix web audit` and `pip-audit -r requirements.lock` before release.
+The audit queries public advisory services using dependency names and versions;
+it does not upload source code. A clean result is not proof of security.
+
+Never upload `.env`, credentials, logs, private datasets or the main SEDGE archive.
+Back up any downloaded results separately; this service has no server-side run
+storage, authentication or deletion API.

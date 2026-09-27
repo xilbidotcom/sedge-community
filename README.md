@@ -1,5 +1,7 @@
 # SEDGE Community
 
+<img src="web/public/brand/sedge-logo.png" alt="SEDGE" height="56"> <img src="web/public/brand/xilbi.png" alt="XILBI" height="40">
+
 A small standalone edition of the **Synthetic Energy Data Generation Engine**.
 Newly written Community code and documentation are licensed under **Apache-2.0**.
 This is not the proprietary SEDGE Engine and does not change its licence.
@@ -66,6 +68,8 @@ edition is inherited by this edition.
 - [Troubleshooting](docs/help/05-troubleshooting.md)
 - [Development and edition boundaries](docs/DEVELOPMENT.md)
 - [Review verification](docs/VERIFICATION.md)
+- [Contributing](CONTRIBUTING.md), [support](SUPPORT.md), [changelog](CHANGELOG.md)
+- [Publication and release procedure](docs/PUBLISHING.md)
 - [Licence](LICENSE), [attribution](NOTICE), [branding](BRANDING.md),
   [dependency notices](THIRD_PARTY_NOTICES.md), [security](SECURITY.md)
 
@@ -93,3 +97,18 @@ source or image is published automatically. Generated numerical outputs contain
 no third-party input data; XILBI imposes no additional licence restriction on those
 values through this edition. Preserve the metadata and limitations when sharing
 outputs. Names and logos remain subject to the separate branding terms.
+
+## Ownership and funding
+
+Copyright 2026 Xilbi Sistemas de Informacion SL. Community source and
+documentation are Apache-2.0; see [OWNERSHIP.md](OWNERSHIP.md) for the scope and
+artwork exceptions. The separate SEDGE Engine is not relicensed.
+
+<img src="web/public/brand/eu-funding.png" alt="Funded by the European Union" height="64"> <img src="web/public/brand/o-cei-logo.png" alt="O-CEI" height="44">
+
+Funded by the European Union through the O-CEI project. Views and opinions
+expressed are however those of the author(s) only and do not necessarily
+reflect those of the European Union or European Commission. Neither the
+European Union nor the granting authority can be held responsible for them.
+
+See [FUNDING.md](FUNDING.md) for programme details and the non-endorsement statement.
